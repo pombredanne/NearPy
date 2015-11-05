@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='NearPy',
-    version='0.1.2',
+    version='0.2.2',
     author='Ole Krause-Sparmann',
     author_email='ole@pixelogik.de',
     packages=[
@@ -24,7 +24,7 @@ setup(
     install_requires=[
         "numpy",
         "scipy",
-        "redis",
-        "bitarray"
+        "bitarray",
+        "future",
     ],
 )
